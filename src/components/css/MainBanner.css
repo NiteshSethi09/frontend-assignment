@@ -1,0 +1,70 @@
+.main-banner {
+  padding: 1rem;
+}
+.container-01,
+.container-02 {
+  border: 2px solid lightgray;
+  border-radius: 10px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.container-01 {
+  margin-bottom: 1rem;
+}
+.item {
+  display: flex;
+  padding: 1em;
+}
+.row {
+  display: flex;
+  margin-top: 0.7rem;
+}
+.item--2 {
+  flex-direction: column;
+  border-top: 2px solid lightgray;
+}
+.item--2 > .row > .icon-calendar {
+  background: url("../assets/calendar-bw.png") no-repeat left;
+  border-radius: 0px;
+  padding: 0;
+  width: 30px;
+  background-size: 30px 30px;
+  margin-right: 0.6rem;
+}
+.item--2 > .row > .content {
+  flex: 1;
+}
+.item--2 > .row > .content > h3 {
+  margin-bottom: 0.3rem;
+}
+.item--2 > .row > .content > p {
+  line-height: 1.4em;
+  font-weight: bold;
+  color: gray;
+  font-size: 0.8rem;
+}
+.view-details {
+  align-self: center;
+  line-height: 1.4em;
+  font-weight: 500;
+  font-size: 0.8rem;
+}
+.item--3 {
+  display: flex;
+  padding-top: 2rem;
+  border-top: 2px solid lightgray;
+  justify-content: space-between;
+}
+.button {
+  background: none;
+  border: 1px solid gray;
+  color: gray;
+  padding: 0.5rem 1.3rem;
+  border-radius: 8px;
+  font-size: 0.9rem;
+}
+.button-2 {
+  background: #1f1f1f;
+  border: 1px solid #1f1f1f;
+
+  color: white;
+}

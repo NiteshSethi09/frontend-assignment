@@ -1,0 +1,32 @@
+.heroBanner {
+  width: 100%;
+  color: white;
+  background-color: #1f1f1f;
+}
+.fa-chevron-left {
+  font-weight: lighter;
+}
+.main-container {
+  padding: 1rem;
+}
+.main-container > .banner-content {
+  display: flex;
+}
+.main-container > .banner-content > .content {
+  padding: 1rem;
+  width: 70%;
+}
+.content > .headings > h4 {
+  line-height: 1.5em;
+}
+.content > .description {
+  padding-top: 1em;
+  line-height: 1.4em;
+  font-weight: lighter;
+  font-size: 0.8rem;
+}
+.main-container > .banner-content > .banner-logo {
+  width: 30%;
+  background: url("../assets/banner-icon.jpg") no-repeat center bottom;
+  background-size: contain;
+}
